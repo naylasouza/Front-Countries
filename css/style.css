@@ -36,3 +36,10 @@ a:hover {
     padding: 0 0 20px;
     align-items: center;
 }
+footer{
+    background-color: #83C5BE;
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
