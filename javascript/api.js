@@ -22,8 +22,9 @@ const filtro = (nomePais) => {
             containerBandeira.innerHTML = htmlCards;
         }) 
 }
-filtro("br");
+const botaoPesquisar = document.getElementById("botaoPesquisar")
 
-// Ao clicar em um dos idiomas na tela, 
-//a aplicação deve listar os nomes de todos os 
-//países que possuem o idioma em comum
+botaoPesquisar.addEventListener('click', (evento) => {
+    const valorCampo = document.getElementById("campoPesquisar").value;
+    filtro(valorCampo);
+})
