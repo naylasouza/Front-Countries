@@ -1,6 +1,6 @@
 ## Front Contries
 
-Projeto construido para consumir dados de países utilizando a api: https://restcountries.eu/#rest-countries. 
+Projeto construído para consumir dados de países utilizando a api: https://restcountries.eu/#rest-countries. 
 
 ### Tecnologias utilizadas 
 - Bootstrap v4.5.0
